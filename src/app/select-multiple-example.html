@@ -1,0 +1,60 @@
+<mat-form-field appearance="fill">
+  <mat-label>Toppings</mat-label>
+  <mat-select [formControl]="toppings" multiple>
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 1 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 2 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 3 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 4 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 5 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 6 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title> Panel 7 </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-option *ngFor="let topping of toppingList" [value]="topping"
+          >{{topping}}</mat-option>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </mat-select>
+</mat-form-field>
+
+<!-- Copyright 2022 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->
